@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nume": {
+      "type": "string"
+    },
+    "descriere": {
+      "type": "text"
+    },
+    "pret": {
+      "type": "decimal"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "categorie": {
+      "model": "categorie"
+    },
+    "url_imagine": {
+      "type": "string"
+    }
+  }
+}
