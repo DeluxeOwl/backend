@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "Product"
+    "name": "Product",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,10 +23,13 @@
     "contact": {
       "type": "string"
     },
-    "categorie": {
-      "model": "categorie"
-    },
     "url_imagine": {
+      "type": "string"
+    },
+    "nume_proprietar": {
+      "type": "string"
+    },
+    "categorie": {
       "type": "string"
     }
   }
